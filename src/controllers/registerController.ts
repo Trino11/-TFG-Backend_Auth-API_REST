@@ -19,7 +19,7 @@ class RegisterController {
                 result = true
             else {
                 const usersResult2 = await users.findOne({ username: username });
-                if (usersResult)
+                if (usersResult2)
                     result = true
                 else {
                     result = false

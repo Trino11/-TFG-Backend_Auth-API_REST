@@ -59,7 +59,7 @@ class RegisterController {
                     throw new Error('result.insertedId == null.')
             }
             else
-                res.status(400).json({ msg: "Error, email is already in use." })
+                res.status(400).json({ msg: "Error, email or username is already in use." })
 
         } catch (e) {
             console.error(e)

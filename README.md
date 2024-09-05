@@ -1,7 +1,6 @@
 # TFG-Backend_Auth-API_REST
 
 ## Swagger API docs
-https://auth.trinohost.com/api-docs/
 
 ## General projects features (APIs and consumers)
 
